@@ -1,13 +1,12 @@
 # dsm
 > Deno Scripts Manager
 
-試験的に作ったDeno製のスクリプト管理ツール。  
-スクリプトの実行のみに対応。  
-より多機能なものなら[Denon](https://github.com/denosaurs/denon)がオススメ。
+コマンド内引数に対応したスクリプト管理・実行ツール。  
+試験的に作成したため、プロダクションレベルではありません。
 
 ## インストール
 ``` bash
-$ deno install --name dsm --allow-run --allow-read --allow-write https://github.com/windchime-yk/dsm/raw/master/cli/mod.ts
+$ deno install --name dsm --allow-run --allow-read --allow-write https://github.com/windchime-yk/dsm/raw/master/mod.ts
 ```
 
 ※もし`dsm: command not found`と出た場合、以下のテキストを`.bash_profile`に追加
@@ -31,3 +30,6 @@ $ cd path/to/dsm
 $ deno run --allow-run --allow-read --allow-write cli/mod.ts init
 $ deno run --allow-run --allow-read --allow-write cli/mod.ts version:deno
 ```
+
+## インスパイア
+[denon](https://deno.land/x/denon)
