@@ -42,6 +42,10 @@ const config: DenonConfig = {
       unstable: true,
       importmap: "./import_map.json",
     },
+    fmt: {
+      cmd: "deno fmt --ignore=README.md,README_JP.md,.vscode/",
+      watch: false,
+    },
   },
 };
 
