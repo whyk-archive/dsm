@@ -1,5 +1,5 @@
 import { resolve } from "path";
-import { DsmConfig } from "../model.ts";
+import { DsmConfig } from "./model.ts";
 
 export const importConfig = async (
   file: string,

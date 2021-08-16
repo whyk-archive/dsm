@@ -1,5 +1,5 @@
 import { resolve } from "path";
-import type { GithubRelease } from "../model.ts";
+import type { GithubRelease } from "./model.ts";
 
 export const args = Deno.args;
 export const [cmd] = args;
